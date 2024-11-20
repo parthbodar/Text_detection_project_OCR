@@ -33,11 +33,9 @@ Download and install Tesseract OCR from its GitHub page.
 Configure the pytesseract.pytesseract.tesseract_cmd variable in the script to point to the installed Tesseract executable. Example:
 
 python
-
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-
-Project Structure
+**# Project Structure
 bash
 Copy code
 text-detection-ocr/
@@ -48,7 +46,7 @@ text-detection-ocr/
 └── example.jpg             # Example input image (optional)
 
 Customization
-
+**
 Switch to Screen Capture Mode:
 
 Uncomment the capture_screen() function in the code and use it instead of the webcam feed.
@@ -105,5 +103,6 @@ The ZIP download link should look like this:
 vbnet
 Copy code
 https://github.com/your-username/text-detection-ocr/archive/refs/heads/main.zip
+
 
 
